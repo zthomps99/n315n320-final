@@ -1,0 +1,91 @@
+.browse {
+  height: 100%;
+  width: 100%;
+  background-image: url(../images/browse.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .browse-recipes {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 1098px;
+    padding-top: 160px;
+    position: relative;
+
+    .browse-header {
+      position: absolute;
+      top: -75px;
+
+      h1 {
+        font-size: 25px;
+        font-family: "Caveat";
+        letter-spacing: 3px;
+      }
+    }
+
+    .recipe-holder {
+      display: flex;
+      margin-bottom: 50px;
+
+      .recipe-img {
+        width: 300px;
+        height: 263px;
+
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+
+      .recipe-info {
+        background-color: rgb(255, 255, 255);
+        width: 224px;
+        height: 263px;
+        border-radius: 15px;
+        padding: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        h1 {
+          white-space: nowrap;
+          font-size: 15px;
+          text-align: left;
+          font-family: "Lato";
+          border-bottom: solid 3px black;
+          width: 110px;
+        }
+
+        p {
+          font-size: 10px;
+          font-family: "Lato";
+          width: 132px;
+        }
+
+        .recipe-sub-info {
+          width: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          text-align: center;
+
+          img {
+            width: 25px;
+            height: 25px;
+            margin-bottom: 9px;
+            margin-top: 4px;
+          }
+
+          p {
+            margin-top: 7px;
+          }
+        }
+      }
+    }
+  }
+}

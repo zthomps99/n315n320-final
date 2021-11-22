@@ -1,0 +1,73 @@
+.home {
+  min-height: 100%;
+  width: 100%;
+  background-image: url(../images/home.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 120px;
+}
+
+.home-about {
+  margin: 0 auto;
+  width: 524px;
+  height: 550px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  .main-circle {
+    margin-top: 138px;
+    width: 357px;
+    height: 357px;
+    border-radius: 200px;
+    background-color: #ffd972;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 1;
+    box-shadow: 5px 12px 4px rgba(0, 0, 0, 0.075);
+
+    h1 {
+      font-family: "Caveat";
+      font-size: 28px;
+      letter-spacing: 2px;
+      padding-bottom: 29px;
+    }
+
+    p {
+      font-family: "Lato";
+      font-size: 13px;
+      width: 167px;
+      text-align: center;
+      line-height: 18px;
+    }
+  }
+
+  .sub-circle {
+    width: 167px;
+    height: 167px;
+    background-color: #fcbcb8;
+    border-radius: 200px;
+    position: absolute;
+    z-index: 0;
+    right: 20px;
+    top: 100px;
+    box-shadow: 5px 12px 4px rgba(0, 0, 0, 0.075);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    p {
+      font-family: "Lato Italic";
+      font-size: 12px;
+      width: 135px;
+      text-align: center;
+      line-height: 15px;
+      padding: 15px;
+    }
+  }
+}

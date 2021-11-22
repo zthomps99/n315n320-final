@@ -1,0 +1,82 @@
+.view-recipe {
+  background-color: #ffffff;
+  width: 100%;
+  height: 160%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  .view-container {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+
+    h1 {
+      position: absolute;
+      transform: rotate(-90deg);
+      left: -120px;
+      top: 150px;
+    }
+
+    p {
+      font-size: 20px;
+      font-family: "Lato";
+      margin-bottom: 35px;
+    }
+
+    .recipe-header {
+      font-size: 25px;
+      margin-bottom: 35px;
+    }
+
+    .recipe-subtext {
+      font-family: "Caveat";
+      margin-bottom: 40px;
+    }
+
+    .recipe-img {
+      width: 50%;
+      height: 100%;
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    .recipe-desc {
+      width: 48%;
+      height: 100%;
+    }
+  }
+
+  .recipe-information {
+    width: 60%;
+    padding-top: 30px;
+
+    p {
+      font-size: 25px;
+      font-family: "Lato";
+    }
+
+    .recipe-subtext-info {
+      font-size: 20px;
+      font-family: "Caveat";
+    }
+
+    button {
+      margin-top: 35px;
+      width: 127px;
+      height: 42px;
+      background-color: #ffd972;
+      font-family: "Caveat";
+      font-size: 20px;
+      border-radius: 25px;
+      border: none;
+      box-shadow: 0px 9px 8px rgba(0, 0, 0, 0.082);
+    }
+  }
+}

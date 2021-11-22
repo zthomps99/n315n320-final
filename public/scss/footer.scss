@@ -1,0 +1,42 @@
+footer {
+  font-family: "Lato Italic";
+  color: #393939;
+  font-size: 18px;
+  margin-top: -75px;
+  height: 75px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: fixed;
+
+  .copyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 17px;
+  }
+
+  .footer-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    a {
+      text-decoration: none;
+      padding: 5px;
+      color: #393939;
+    }
+  }
+
+  .social-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .social {
+      width: 60px;
+      height: 19px;
+    }
+  }
+}
